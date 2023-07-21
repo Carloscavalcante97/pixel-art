@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&family=Orbitron:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <title>Pixels Art</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+  </header>
+
+  <div class="center-container">
+    <div id="color-palette">
+      <div class="color" style="background-color: yellow"></div>
+      <div class="color" style="background-color: purple"></div>
+      <div class="color" style="background-color: blueviolet"></div>
+      <div class="color" style="background-color: blue"></div>
+    </div>
+
+    <div class="buttonContainer">
+      <button id="button-random-color">Cores aleatórias</button>
+      <button id="clear-board">Limpar</button>
+    </div>
+
+    <label>
+      <input
+        type="number"
+        min="1"
+        max="50"
+        value="5"
+        placeholder="Troque o tamanho"
+        id="board-size"
+      />
+      <button id="generate-board">VQV</button>
+    </label>
+
+    <div id="pixel-board"></div>
+
+    <div class="pixelContainer">
+      
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; Carlos Cavalcante</p>
+  </footer>
+</body>
+</html>
